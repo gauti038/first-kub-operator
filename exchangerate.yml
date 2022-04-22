@@ -1,0 +1,27 @@
+apiVersion: operators.gka038.github.io/v1
+kind: ExchangeRate
+metadata:
+  name: exchange-rate-usd
+spec:
+  currency: USD
+--- 
+apiVersion: operators.gka038.github.io/v1
+kind: ExchangeRate
+metadata:
+  name: exchange-rate-cad
+spec:
+  currency: CAD
+--- 
+apiVersion: operators.gka038.github.io/v1
+kind: ExchangeRate
+metadata:
+  name: exchange-rate-chf
+spec:
+  currency: CHF
+--- 
+apiVersion: operators.gka038.github.io/v1
+kind: ExchangeRate
+metadata:
+  name: exchange-rate-gbp
+spec:
+  currency: GBP
